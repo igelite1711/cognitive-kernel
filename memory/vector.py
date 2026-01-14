@@ -6,13 +6,10 @@ class VectorMemory:
         # Simple in-memory storage
         self.memory_store = {}
 
-    def store(self, key: str, value):
-        # Store key-value pair in memory
+    def add(self, key: str, value):
+        # Add key-value pair to memory
         self.memory_store[key] = value
 
-    def recall(self, key: str):
-        # Recall value by key
+    def get(self, key: str):
+        # Retrieve value by key
         return self.memory_store.get(key, None)
-
-# Create singleton instance for spine to use
-MEMORY = VectorMemory()

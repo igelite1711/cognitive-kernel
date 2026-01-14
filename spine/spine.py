@@ -1,7 +1,7 @@
 # spine/spine.py - Main run function
 
 from spine.executor import execute
-from memory.vector import MEMORY
+from spine.memory import MEMORY # Updated import
 
 # Mock functions for now
 def route(user_input: str):
@@ -30,7 +30,7 @@ def run(user_input: str):
 
     verdict = verify(final_output)
     if verdict.get("status") != "SUCCESS":
-        return final_output # Return the output even if verification failed
+        return final_output # Changed to return final_output if verification failed
 
     MEMORY.store(user_input, final_output)
     return final_output
