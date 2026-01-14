@@ -1,0 +1,1 @@
+from dataclasses import dataclass, field\nfrom typing import Any, Dict, List\n@dataclass\nclass SpineState:\n    input: str\n    plan: Dict[str, Any] = field(default_factory=dict)\n    step_results: List[Any] = field(default_factory=list)\n    output: Any = None\n    status: str = 'INIT'\n    errors: List[str] = field(default_factory=list)
