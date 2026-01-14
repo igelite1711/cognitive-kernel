@@ -1,0 +1,15 @@
+{
+  "status": "LOCKED",
+  "phase": "Phase 1",
+  "description": "Cognitive primitives kernel",
+  "timestamp": 1768383085.073927,
+  "adapters": [
+    "decomposition",
+    "planning",
+    "constraints",
+    "self_check",
+    "stop"
+  ],
+  "version": "v1.0",
+  "immutable": true
+}
