@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "name": "Intelligence Spine",
+  "status": "LOCKED",
+  "files": [
+    "spine/planner.py",
+    "spine/router.py",
+    "spine/executor.py",
+    "spine/verifier.py",
+    "spine/spine.py"
+  ],
+  "notes": "Phase 2 deterministic loop, memory integration verified"
+}

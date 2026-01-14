@@ -1,0 +1,11 @@
+{
+  "phase": 1,
+  "name": "Cognitive Primitives",
+  "status": "LOCKED",
+  "files": [
+    "kernel/kernel_manifest.json",
+    "adapters/",
+    "kernel/KERNEL_LOCK.json"
+  ],
+  "notes": "Phase 1 primitives verified and frozen"
+}
