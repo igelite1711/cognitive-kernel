@@ -1,1 +1,12 @@
-{}
+{
+  "phase": 5,
+  "name": "Autonomous Execution Loop",
+  "guarantees": [
+    "Planner produces executable steps",
+    "Executor runs domain logic",
+    "Verifier blocks unsafe intent",
+    "System completes task without human intervention"
+  ],
+  "status": "FROZEN",
+  "timestamp": "RELOCKED"
+}

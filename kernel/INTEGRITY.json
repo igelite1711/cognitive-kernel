@@ -1,5 +1,23 @@
 {
-  "hash": "9c96149eca3c80906517cb83b53e7f462690ca57f6d61325cdb8e25b9be36156",
-  "locked_at": "2026-01-14 12:36:20",
-  "kernel/PHASE_5_LOCK.json": "99914b932bd37a50b983c5e7c90ae93b"
+  "spine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "spine/router.py": "34707b8c3f3e4939cbe64ef1bfd98596e4788dc2e2e05d521c13124cb5727dee",
+  "spine/planner.py": "6097c544d2cbc93f6a1a247a119a8ee61a4b13e6637cab580a616ee16fa49c31",
+  "spine/executor.py": "8a50d507c5023892392bcb70e4826acadc215fbc3413dc9bb7258a35d124679e",
+  "spine/verifier.py": "ea105f088330bf5257ae6960deefe9c40932936e1ce05b215a5ce671a0797460",
+  "spine/spine.py": "a0d978ba60cefce70846ab44f442366ed7386b08c68852d82d8e2bf26f930d66",
+  "spine/memory.py": "4109ef0ad2aeadcb25e7c4afb99cdb83e2383ac451aae96b951e095ecbbb199d",
+  "spine/tool_runner.py": "6097c544d2cbc93f6a1a247a119a8ee61a4b13e6637cab580a616ee16fa49c31",
+  "spine/validator.py": "6097c544d2cbc93f6a1a247a119a8ee61a4b13e6637cab580a616ee16fa49c31",
+  "spine/core/executor.py": "ff9957941308e965c3c663dc063fa7dcd00fa2497d510495a32967c682e1d0a4",
+  "spine/core/kernel_connector.py": "a5bb1a8add5477f17216e9bf1ef077953f9971601f3cf17cf4af6d74337f5481",
+  "spine/core/planner.py": "fd4d6a1b7ae8f1a771fdaac288180c3ec0a7fa80ff39165f3213edb5309efef7",
+  "spine/core/spine.py": "fa7e6c5eae8206b56ba7c6c168ee428e41839bdc2facd5ab992a59257627dbf7",
+  "spine/core/state.py": "8eb3987252c99b6f1267c424e8ade195edc78b8ff5a2f00268b7cfffa1c506ce",
+  "spine/core/verifier.py": "408f79267c74e11f9db8249ed8424f864599fb46e69adf73a6b1dd7635e62c7c",
+  "spine/tools/registry.py": "c51002b0b6b2c698ab2d34e2b1585e1a8fbca355d06b9963acb353359c5d42f7",
+  "kernel/PHASE_5_LOCK.json": "fa99c788db37aec0f546c941f60130e3246d89e81906357bc3f6fe44177d982e",
+  "kernel/PHASE_1_LOCK.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "kernel/PHASE_2_LOCK.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "kernel/PHASE_3_LOCK.json": "58db67f18449b11931a01094d267fa1cb42fba8258e57137a6fc46f28b42ee61",
+  "kernel/PHASE_4_LOCK.json": "3be040378a9c9f863a61b2e59a69672edf24e95f51a177a129bce1ae30cfc384"
 }
