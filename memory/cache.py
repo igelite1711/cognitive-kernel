@@ -1,8 +1,13 @@
-# Placeholder for memory/cache.py
-# This file is required for Phase 4 Memory & Identity Layer.
-# It should contain caching mechanisms.
-def get_from_cache(key):
-    return None
-def add_to_cache(key, value):
-    pass
-# End of placeholder content.
+
+# memory/cache.py - Placeholder for CacheMemory class
+
+class CacheMemory:
+    def __init__(self):
+        self.cache = {}
+        print("CacheMemory initialized.")
+
+    def get(self, key):
+        return self.cache.get(key)
+
+    def set(self, key, value):
+        self.cache[key] = value

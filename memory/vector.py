@@ -1,11 +1,18 @@
-# Placeholder for memory/vector.py
-# This file is required for Phase 4 Memory & Identity Layer.
-# It should contain vector-related memory implementation.
+# memory/vector.py - Placeholder for VectorMemory class
 import numpy as np
-def initialize_vector_db():
-    pass
-def add_vector(data):
-    pass
-def search_vectors(query):
-    return []
-# End of placeholder content.
+
+class VectorMemory:
+    def __init__(self):
+        # Simple in-memory storage
+        self.memory_store = {}
+
+    def store(self, key: str, value):
+        # Store key-value pair in memory
+        self.memory_store[key] = value
+
+    def recall(self, key: str):
+        # Recall value by key
+        return self.memory_store.get(key, None)
+
+# Create singleton instance for spine to use
+MEMORY = VectorMemory()
